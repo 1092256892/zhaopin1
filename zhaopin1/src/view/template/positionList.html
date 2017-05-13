@@ -1,0 +1,18 @@
+<ul class="position-list">
+	<!--<li class="item">
+		<img class="logo" src='image/company-3.png'>
+		<h3 class="title">销售</h3>
+		<p class="text">
+			千度[上海] 互联网<br>
+			2016-06-01 11:05
+		</p>
+	</li>-->
+	<li ui-sref="position({id:item.id})" class="item" ng-repeat='item in data|filterByObj:filterObj'>
+		<img class="logo" ng-src="{{item.imageUrl}}" alt="">
+		<h3 class="title" ng-bind="item.name"></h3>
+		<p class="text" ng-bind="item.companyName+'[' + item.cityName + ']' + '  ' + item.industryName"></p>
+		<p class="text" ng-bind="item.salaryName"></p>
+		<p class="text" ng-bind="item.date"></p>
+		<div class="clear"></div>
+	</li>
+</ul>

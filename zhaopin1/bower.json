@@ -1,0 +1,24 @@
+{
+  "name": "zhaipin",
+  "description": "1502Bdfirset",
+  "main": "",
+  "authors": [
+    "gxx"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jQuery": "^3.2.1",
+    "angular-ui-router": "ui-router#^1.0.3+hybrid-2.0.0",
+    "angular-cookies": "^1.6.4"
+  }
+}
